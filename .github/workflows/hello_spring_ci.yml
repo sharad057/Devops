@@ -3,7 +3,7 @@ name: Hello Spring Boot App to Docker
 on:
     push
 
-job:
+jobs:
     build-test:
         runs-on: ubuntu-latest
 
